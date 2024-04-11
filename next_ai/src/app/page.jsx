@@ -3,6 +3,7 @@
 import Image from "next/image";
 import styles from "./home.module.css";
 import React, { useState, useEffect} from "react";
+import Link from 'next/link';
 
 function Home() {
 
@@ -25,9 +26,8 @@ function Home() {
           blanditiis adipisci minima reiciendis a autem assumenda dolore.
         </p>
         <div className={styles.buttons}>
-          <button className={styles.button}>DKD Predictor</button>
+          <Link href="./DKD"><button className={styles.button} >DKD Predictor</button></Link>
         </div>
-        
       </div>
       <div className={styles.imgContainer}>
         <Image src="/illustration.png"  fill className={styles.heroImg}/>

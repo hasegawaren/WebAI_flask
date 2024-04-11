@@ -41,7 +41,7 @@ const AboutPage = () => {
           <div><input className={styles.inputstyle} type="text"/></div>
           <input className={styles.inputstyle} type="text"/>
           <div className={styles.text}>Please check the information before predict</div>
-          <div><button className={styles.btn}><img src="/icon/clipboard.svg" /> Predict</button></div>
+          <div><button className={styles.btn}><img src="/icon/clipboard.svg"  /> Predict</button></div>
         </form>
       </div>
       </div>

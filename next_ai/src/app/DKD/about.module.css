@@ -1,0 +1,67 @@
+/* styles/globals.css */
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    background: rgba(201, 225, 253, 1);
+    justify-items: center;
+    padding: 20px; 
+    width: 1300px; 
+    height: 680px; 
+    border-radius: 30px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 60px;
+  }
+
+.patient {
+    background: white; 
+    width: 254px; 
+    height: 101px;
+    position: absolute;
+    top: 210px;
+    left: 180px; 
+    border-radius: 20px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-weight: bold;
+    box-shadow: 0 4px 4px rgb(144, 143, 143);
+  }
+
+  .form {
+    width: 226px;
+    height: 636px;
+    position: absolute; 
+    top: 200px; 
+    left: 490px; 
+    margin-left: 20px; 
+    font-weight: bold;
+    line-height: 3.5;
+    
+  }
+
+  .input {
+    width: 608px;
+    height: 618px;
+    position: absolute;
+    top: 200px;
+    left: 790px; 
+    margin-left: 20px; 
+    line-height: 3.5;
+    border-radius: 20px;
+  }
+
+  .btn {
+    height: 42px;
+    width: 120px;
+    border-radius: 20px;
+    position: absolute;
+    top: 660px;
+    transform: translateX(-50%);
+    font-weight: bold;
+    background: white;
+    box-shadow: 0 4px 4px rgb(144, 143, 143);
+    border: 1px solid white;
+  }

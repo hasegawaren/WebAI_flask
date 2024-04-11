@@ -25,8 +25,7 @@ function Home() {
           blanditiis adipisci minima reiciendis a autem assumenda dolore.
         </p>
         <div className={styles.buttons}>
-          <button className={styles.button}>Learn More</button>
-          <button className={styles.button}>Contact</button>
+          <button className={styles.button}>DKD Predictor</button>
         </div>
         
       </div>

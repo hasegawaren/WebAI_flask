@@ -11,8 +11,8 @@
     display: flex; 
     justify-content: center; 
     align-items: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
 .patient {
@@ -20,7 +20,7 @@
     width: 254px; 
     height: 101px;
     position: absolute;
-    top: 210px;
+    top: 190px;
     left: 180px; 
     border-radius: 20px;
     display: flex; 
@@ -63,25 +63,48 @@
 
 .text{
   position: absolute;
-  top: 650px;
-  transform: translateX(-50%);
-  font-style: italic;
-  color: grey;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: bold;
+  top: 490px;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
 }
 
-  .btn {
-    height: 42px;
-    width: 130px;
-    border-radius: 20px;
-    position: absolute;
-    top: 710px;
-    transform: translateX(-50%);
-    font-weight: bold;
-    background: white;
-    box-shadow: 0 4px 4px rgb(144, 143, 143);
-    border: 1px solid white;
-    display: flex; 
-   justify-content: center; 
-    align-items: center;
-    font-size: 16px;
+.text1{
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-style: italic;
+  top: 570px;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  height: 42px;
+  width: 130px;
+  border-radius: 20px;
+  position: absolute;
+  left: 710px;
+  top: 645px;
+  font-weight: bold;
+  background: white;
+  box-shadow: 0 4px 4px rgb(144, 143, 143);
+  border: 1px solid white;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  font-size: 16px;
+  }
+
+.img {
+    object-fit: contain;
+}
+
+.imgContainer {
+  width: max-content;
+  height: 200px;
+  flex: 1;
+  position: relative;
+  justify-items: center;
+  margin-bottom: 250px;
   }

@@ -18,15 +18,11 @@
 .patient {
     background: white; 
     width: 254px; 
-    height: 101px;
+    height: 99px;
     position: absolute;
     top: 210px;
     left: 180px; 
     border-radius: 20px;
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-    font-weight: bold;
     box-shadow: 0 4px 4px rgb(144, 143, 143);
   }
 
@@ -84,4 +80,18 @@
     justify-content: center; 
     align-items: center;
     font-size: 16px;
+  }
+
+  .text1{
+    font-weight: bold;
+    position: absolute;
+    top:  25px;
+    left: 14px;
+  }
+
+  .text2{
+    font-weight: bold;
+    position: absolute;
+    top:  55px;
+    left: 14px;
   }

@@ -1,0 +1,189 @@
+.container {
+  height: 1000px;
+  width: 1250px ;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.text{
+  font-size: 34px;
+  font-weight: 800;
+  position: absolute;
+  top: 110px;
+  left: 130px; 
+  color: rgb(60, 60, 60);
+}
+
+.add{
+  background-color: white;
+  height: 42px;
+  width: 150px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  box-shadow: 0 4px 4px rgb(144, 143, 143);
+  border: 1px solid white;
+  position: absolute;
+  top: 110px;
+  right: 130px;
+}
+
+.search{
+  height: 40px;
+  width: 1250px;
+  background-color: rgb(243, 243, 243);
+  border: 3px solid rgb(214, 214, 214);
+  border-radius: 15px;
+  position: absolute;
+  top: 190px;
+  left: 130px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  font-size: 16px;
+  padding-left: 55px;
+}
+
+.icon{
+  width: 26px; 
+  height: 26px;
+}
+
+.popup{
+  height: 390px;
+  width: 585px;
+  background: rgba(201, 225, 253, 1);
+  position: absolute;
+  top: 265px;
+  left: 460px;
+  border-radius: 15px;
+  box-shadow: 0 4px 4px rgb(144, 143, 143);
+}
+
+.closeButton {
+  height: 35px;
+  width: 50px;
+  border-radius: 15px;
+  font-weight: bold;
+  background: rgb(255, 255, 255);
+  border: 1px solid hsl(0, 0%, 100%);
+  font-size: 16px;
+  position: relative;
+  left: 500px;
+  top: 20px;
+}
+
+.input1{
+  width: 350px;
+  padding: 10px;
+  background-color: #ffffff;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 165px;
+  left: 115px;
+}
+
+.input2{
+  width: 350px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 250px;
+  left: 115px;
+}
+
+.pic1{
+  width: 95px;
+  height: 95px;
+  position: absolute;
+  left: 248px;
+  top: 30px;
+  border-radius: 50%;
+}
+
+.text1{
+  font-size: 18px;
+  font-weight: 800;
+  position: absolute;
+  top: 135px;
+  left: 120px; 
+  color: rgb(60, 60, 60);
+}
+
+.text2{
+  font-size: 18px;
+  font-weight: 800;
+  position: absolute;
+  top: 220px;
+  left: 120px; 
+  color: rgb(60, 60, 60);
+}
+
+.btn{
+  height: 42px;
+  width: 100px;
+  border-radius: 20px;
+  position: absolute;
+  top: 315px;
+  left: 240px;
+  font-weight: bold;
+  background: white;
+  box-shadow: 0 4px 4px rgb(144, 143, 143);
+  border: 1px solid white;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  font-size: 16px;
+}
+
+.icon{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 201px;
+  left: 150px; 
+}
+
+.patientContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 70px; /* ช่องว่างระหว่างไอเทม */
+  margin-top: 30px; /* ระยะห่างด้านบนของ container */
+  position: absolute;
+  top: 250px;
+}
+
+.patientCard {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(to left, rgb(121, 134, 222), rgb(151, 176, 232),rgb(162, 192, 235));
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid rgb(162, 192, 235);
+  box-shadow: 0 4px 4px rgb(144, 143, 143);
+  font-weight: bold;
+  line-height: 1.75;
+  transition: transform 1.0s;
+}
+
+.patientCard:hover {
+  background: rgb(254, 186, 59); /* เปลี่ยนสีพื้นหลังเมื่อ hover */
+  transform: translateY(-5px); /* ยกไอเทมขึ้นเล็กน้อย */
+  box-shadow: 0 4px 4px rgb(144, 143, 143);
+  color: black;
+}
+
+.picavatar{
+  width: 60px; 
+  height: 60px;
+  border-radius: 50%;
+}

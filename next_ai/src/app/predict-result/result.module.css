@@ -108,3 +108,17 @@
   justify-items: center;
   margin-bottom: 250px;
   }
+
+  .text2{
+    font-weight: bold;
+    position: absolute;
+    top:  25px;
+    left: 14px;
+  }
+
+  .text3{
+    font-weight: bold;
+    position: absolute;
+    top:  55px;
+    left: 14px;
+  }

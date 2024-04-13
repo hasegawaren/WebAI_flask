@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 
-const AboutPage = () => {
+const DKDPage = () => {
 
   // console.log("lets check where it works")
   return (
@@ -50,4 +50,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default DKDPage;
